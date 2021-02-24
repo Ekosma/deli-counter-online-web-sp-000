@@ -5,8 +5,8 @@ def line(katz_deli)
   else 
     katz_deli.each.with_index{|name, index|
       array.push("#{index + 1}. #{name}")}
-      puts "The line is currently: #{array.join(" ")}"
   end
+  puts "The line is currently: #{array.join(" ")}"
 end
 
 def take_a_number(katz_deli, name)
